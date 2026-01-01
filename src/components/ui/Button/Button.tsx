@@ -5,6 +5,8 @@ import { cn } from "../../../lib/utils";
 import { buttonVariants } from "./Button.variants";
 import "./Button.css";
 
+export { buttonVariants } from "./Button.variants";
+
 type ButtonProps = React.ComponentProps<"button"> &
   VariantProps<typeof buttonVariants> & {
     asChild?: boolean;
