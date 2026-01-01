@@ -26,7 +26,7 @@ export function Header({
           <div className="header__logo" onClick={() => navigate("/")}>
             <img
               className="header__logo-icon"
-              src="/public/assets/relatos-papel.png"
+              src="/assets/relatos-papel.png"
               alt="Relatos de papel"
             />
             <span className="header__logo-text">{brandInfo.name}</span>
